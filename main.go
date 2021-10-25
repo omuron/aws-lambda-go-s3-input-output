@@ -15,8 +15,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 )
 
-// 出力バケット
-const S3Output = "sample-output2"
+// アウトプットするバケット
+const S3Output = "アウトプットバケット名"
 
 // https://github.com/aws/aws-lambda-go/blob/main/events/README_S3.md を参考
 func handler(ctx context.Context, s3Event events.S3Event) {
